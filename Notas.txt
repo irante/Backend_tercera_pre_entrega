@@ -1,0 +1,6 @@
+/api/carts/id carrito/products/id productos
+/api/carts/1/products/3
+
+si el producto ya existe en el carrito solo incrementar la cantidad
+
+

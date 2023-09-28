@@ -1,0 +1,6 @@
+clase 19 - login
+ejecutar server sin nodemos ya que al guardar cambios nodemon reinicia el server y crea una nueva sesion
+
+
+ejecutar con:
+                node server.js

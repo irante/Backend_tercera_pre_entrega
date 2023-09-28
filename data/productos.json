@@ -1,0 +1,239 @@
+[
+  {
+    "title": "mouse",
+    "descripcion": "mouse Logitech",
+    "price": 18900,
+    "thumbnail": "./mouse.jpg",
+    "code": "abc123",
+    "stock": 10,
+    "id": 1
+  },
+  {
+    "title": "parlantes",
+    "descripcion": "parlantes Genius",
+    "price": 15300,
+    "thumbnail": "./parlante.jpg",
+    "code": "as7229",
+    "stock": 2,
+    "id": 3
+  },
+  {
+    "title": "monitor",
+    "descripcion": "monitor LG",
+    "price": 49900,
+    "thumbnail": "./monitor.jpg",
+    "code": "mnc839",
+    "stock": 5,
+    "id": 4
+  },
+  {
+    "title": "auriculares",
+    "descripcion": "auriculares Sony",
+    "price": 27900,
+    "thumbnail": "./auriculares.jpg",
+    "code": "srh598",
+    "stock": 8,
+    "id": 5
+  },
+  {
+    "title": "cámara",
+    "descripcion": "cámara Canon",
+    "price": 79900,
+    "thumbnail": "./camara.jpg",
+    "code": "cn9821",
+    "stock": 3,
+    "id": 6
+  },
+  {
+    "title": "impresora",
+    "descripcion": "impresora HP",
+    "price": 39900,
+    "thumbnail": "./impresora.jpg",
+    "code": "hp7682",
+    "stock": 6,
+    "id": 7
+  },
+  {
+    "title": "disco duro",
+    "descripcion": "disco duro Seagate",
+    "price": 69900,
+    "thumbnail": "./discoduro.jpg",
+    "code": "sgt631",
+    "stock": 4,
+    "id": 8
+  },
+  {
+    "title": "router",
+    "descripcion": "router TP-Link",
+    "price": 24900,
+    "thumbnail": "./router.jpg",
+    "code": "tpl770",
+    "stock": 7,
+    "id": 9
+  },
+  {
+    "title": "altavoces",
+    "descripcion": "altavoces JBL",
+    "price": 44900,
+    "thumbnail": "./altavoces.jpg",
+    "code": "jbl532",
+    "stock": 3,
+    "id": 10
+  },
+  {
+    "title": "tablet",
+    "descripcion": "tablet Samsung",
+    "price": 56900,
+    "thumbnail": "./tablet.jpg",
+    "code": "sng726",
+    "stock": 9,
+    "id": 11
+  },
+  {
+    "title": "ratón",
+    "descripcion": "ratón Microsoft",
+    "price": 21900,
+    "thumbnail": "./raton.jpg",
+    "code": "msft221",
+    "stock": 12,
+    "id": 12
+  },
+  {
+    "title": "teclado mecánico",
+    "descripcion": "teclado mecánico Razer",
+    "price": 12900,
+    "thumbnail": "./tecladomecanico.jpg",
+    "code": "rzr442",
+    "stock": 6,
+    "id": 13
+  },
+  {
+    "title": "parlantes Bluetooth",
+    "descripcion": "parlantes Bluetooth Sony",
+    "price": 29900,
+    "thumbnail": "./parlantesbluetooth.jpg",
+    "code": "sn7035",
+    "stock": 4,
+    "id": 14
+  },
+  {
+    "title": "monitor gaming",
+    "descripcion": "monitor gaming Acer",
+    "price": 59900,
+    "thumbnail": "./monitorgaming.jpg",
+    "code": "acr780",
+    "stock": 7,
+    "id": 15
+  },
+  {
+    "title": "webcam",
+    "descripcion": "webcam Logitech",
+    "price": 24900,
+    "thumbnail": "./webcam.jpg",
+    "code": "lgt982",
+    "stock": 5,
+    "id": 16
+  },
+  {
+    "title": "impresora multifuncional",
+    "descripcion": "impresora multifuncional Epson",
+    "price": 45900,
+    "thumbnail": "./impresoramultifuncional.jpg",
+    "code": "eps731",
+    "stock": 3,
+    "id": 17
+  },
+  {
+    "title": "memoria USB",
+    "descripcion": "memoria USB Kingston",
+    "price": 1990,
+    "thumbnail": "./memoriausb.jpg",
+    "code": "kng540",
+    "stock": 20,
+    "id": 18
+  },
+  {
+    "title": "adaptador HDMI",
+    "descripcion": "adaptador HDMI Apple",
+    "price": 8900,
+    "thumbnail": "./adaptadorhdmi.jpg",
+    "code": "apl279",
+    "stock": 15,
+    "id": 19
+  },
+  {
+    "title": "router inalámbrico",
+    "descripcion": "router inalámbrico Linksys",
+    "price": 29900,
+    "thumbnail": "./routerinalambrico.jpg",
+    "code": "lnk819",
+    "stock": 8,
+    "id": 20
+  },
+  {
+    "title": "tableta digitalizadora",
+    "descripcion": "tablet wacon",
+    "price": 58700,
+    "thumbnail": "./wacon.jpg",
+    "code": "wap10",
+    "stock": 14,
+    "status": true,
+    "category": "tabletas",
+    "id": 21
+  },
+  {
+    "title": "teclado mecanico",
+    "descripcion": "Teclado Reddragon",
+    "price": 38700,
+    "thumbnail": "./reddragon.jpg",
+    "code": "wpp10",
+    "stock": 2,
+    "status": true,
+    "category": "teclado",
+    "id": 22
+  },
+  {
+    "title": "teclado membrana",
+    "descripcion": "Teclado Reddragon",
+    "price": 8700,
+    "thumbnail": "./reddragon1.jpg",
+    "code": "wss10",
+    "stock": 12,
+    "status": true,
+    "category": "teclado",
+    "id": 23
+  },
+  {
+    "title": "pendrive",
+    "descripcion": "Pendrive Kingston",
+    "price": 4700,
+    "thumbnail": "./kingston1.jpg",
+    "code": "wtte10",
+    "stock": 10,
+    "status": true,
+    "category": "teclado",
+    "id": 24
+  },
+  {
+    "title": "Notebook",
+    "descripcion": "Notebook Asus",
+    "price": 344700,
+    "thumbnail": "./Asusl740.jpg",
+    "code": "Asl740",
+    "stock": 3,
+    "status": true,
+    "category": "teclado",
+    "id": 25
+  },
+  {
+    "title": "Notebook",
+    "descripcion": "Notebook Lenovo",
+    "price": 444700,
+    "thumbnail": "./Lenovo1240.jpg",
+    "code": "le1240",
+    "stock": 2,
+    "status": true,
+    "category": "teclado",
+    "id": 26
+  }
+]
