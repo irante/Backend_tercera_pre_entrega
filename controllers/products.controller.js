@@ -32,6 +32,9 @@ const getAll = async (req, res) => {
         status : 'success',
         payload: products,
         info});
+        
+
+        
     
   }
   

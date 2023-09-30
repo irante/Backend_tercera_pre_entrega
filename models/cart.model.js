@@ -12,13 +12,13 @@ const schema = new Schema({
   createdDate: { type: Number, default: Date.now() }
 })
 
-/*
 
+/*
 schema.pre("findOne", function () {
   this.populate({ path: 'user', select: ['email', 'firstname', 'lastname'] })
 })
-
 */
+
                   
 const cartModel = model('carts', schema)    //(nombre de la coleccion , esquema)
 

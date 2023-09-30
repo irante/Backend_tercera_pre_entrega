@@ -89,7 +89,8 @@ app.use(passport.session())  //Si se están utilizando sesiones y se ha establec
  
  app.use((req, res, next) => {
 
-  console.log(req.session, req.user)
+  //console.log(req.session, req.user)
+  console.log(req.user)
       next()
 
  })

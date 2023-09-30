@@ -19,7 +19,7 @@ const LeerCarritos = async (req, res) => {
 //Obtener productos del carrito que tenga el id dado.==> Get http://localhost:8080/api/carts/64dbe954c4f38dedc23e6b02
 
 const getProductsByCartId =  async (req, res) => {
-  let id = req.params.id
+  let id = req.params.idcart
    const products = await cartManager.getProductsByCartId(id)
 
  
