@@ -19,7 +19,7 @@ async getProductsByCartId(cartId) {
   
   try {
     const cart = await cartModel.findById(cartId).populate('products.product');
-    return cart.products;
+    return cart;
 
   } catch (error) {
     console.error("Error al obtener productos del carrito:", error.message);

@@ -51,6 +51,13 @@ router.put('/:idcart/products/:idprod', delete_Producto_conIdcart_idpro)
 router.delete('/:id', deleteById) 
 
 
+
+
+
+
+
+
+
 //------------------------------------------------------------------------
 
 
@@ -75,11 +82,11 @@ router.get('/:idcart/purchase', async (req, res) => {
       // obtengo solo los productos del carrito
       
       //=========************************* no puedo obtener products del carrito*******************
-      // si hago console.log(cart) ver que el carrito es: [{product{title,precio,etc}}, {title,precio,etc}]  No se ve la propiedad products
+      // si hago console.log(cart) veo que el carrito es: [{product:{title,precio,etc}}, {product:title,precio,etc}]  No se ve la propiedad products
       
 
       const { products: productsInCart } = cart     // desestructura el carrito obteniendo solo la propiedad products al que le da el alias productsInCart 
-      //const products = [] // dto
+      const products = [] // dto
       
       console.log(cart)
      
@@ -138,13 +145,13 @@ router.get('/:idcart/purchase', async (req, res) => {
       console.log(po)
 
      
-      res.send(po)
+      
 
 
 
-      //crear orden???
-     //const orden = await PurchaseOrderManager.create(po)
-     //res.send(orden)
+      //crear orden
+     const orden = await PurchaseOrderManager.create(po)
+     res.send(orden)
       
      
 
