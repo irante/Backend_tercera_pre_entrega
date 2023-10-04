@@ -48,7 +48,7 @@ const signup = async (req, res) => {
       ...newUser._doc
     }
 
-    console.log(req.session)
+
 
     req.session.save((err) => {
       res.redirect('/')

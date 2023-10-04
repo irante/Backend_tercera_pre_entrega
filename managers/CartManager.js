@@ -23,7 +23,7 @@ async getProductsByCartId(cartId) {
 
   } catch (error) {
     console.error("Error al obtener productos del carrito:", error.message);
-    return "carrito no encontrado"; 
+    //return "carrito no encontrado"; 
   }
 }
 
@@ -32,7 +32,7 @@ async getProductsByCartId(cartId) {
   // Crear Carrito
 
   async create(carrito) {
-    const NewCarrito = await cartModel.create(carrito)
+    const NewCarrito = await cartModel.create({ user: undefined, products: [] })
     return NewCarrito 
 
 
@@ -45,7 +45,8 @@ async getProductsByCartId(cartId) {
       variable, pushear el producto al array (carrito) y guardar ese carrito modificado a la base de datos
 
   */
-   async AgregarProducto(idcart, idprod) {
+   
+      async AgregarProducto(idcart, idprod) {
     
       const carrito = await cartModel.findById(idcart);
   
@@ -149,6 +150,21 @@ async getProductsByCartId(cartId) {
       console.error("Error el eliminar el carrito", error.message)
     }
   }
+
+
+  // Vaciar carrito
+
+  async deleteProductsCart(cid){
+
+    //ID DEL CARRITO
+    let cart = await cartModel.findOne({_id: cid})
+
+    cart.products = []
+
+    cart.save()
+}
+
+
 
 
 

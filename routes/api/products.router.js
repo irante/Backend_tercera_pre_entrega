@@ -7,7 +7,7 @@
     const { Router } = require('express')     // importo la funcion Router. se usa la desestructuracion porque express exporta un objeto grande entre lo que tiene la funcion router que es lo que queremos usar. se guarda la clase en la constante
 
     const router = Router()     // Aca se crea el router. se llama a la funcion guardandola en la constante router/
-
+    const { policiesAdmin } = require('../../middlewares/policies.middleware')
 
 // importo la clase ProductManager, ya no necesito  instanciar 
 
@@ -39,16 +39,16 @@ router.get('/:id', getById)
 
 
 // Agregar productos  ==> Post http://localhost:8080/api/products/
-router.post('/', create) 
+router.post('/', policiesAdmin, create) 
 
 
 
 // Actualizar Productos   ==> Put http://localhost:8080/api/products/14
-router.put('/:id',update) 
+router.put('/:id',policiesAdmin, update) 
  
 
 // Eliminar Productos   ==> Delete http://localhost:8080/api/products/2
-router.delete('/:id',deleteById) 
+router.delete('/:id',policiesAdmin, deleteById) 
 
 
 

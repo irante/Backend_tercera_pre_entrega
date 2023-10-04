@@ -27,6 +27,7 @@ router.get('/', async (req, res) => {
     title: 'Bienvenido a la Tienda!',
     products,
     pageInfo,
+    
     user: req.user ?  {           // toma dato del midleware global que esta en server.js
       ...req.user,
       isAdmin: req.user?.role == 'admin',
@@ -37,9 +38,20 @@ router.get('/', async (req, res) => {
   })
 })
 
+
+//obten datos del usuario guardado en la sesion
+router.get('/usuario', async (req, res) => {
+  const usuario = req.user
+  res.send(usuario)
+})
+
+
+
+
 // Ruta de Perfil
 
 router.get('/profile', isAuth, (req, res) => {
+  
   res.render('profile', {
     user: req.user ?  {
       ...req.user,

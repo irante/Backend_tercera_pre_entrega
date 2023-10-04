@@ -1,18 +1,21 @@
 
-/*
+
 function isAuth(req, res, next) {
   if (req.isAuthenticated) {         // si usuario existe
-    next()                // continuar
+    next()                          // continuar
     return
   }
 
-  res.redirect('/login')    // si no existe envio a pantalla de login
+  res.redirect('/login')             // si no existe envio a pantalla de login
 }
 
 module.exports = isAuth
 
-*/
 
+
+
+
+/*
 
 function isAuth(req, res, next) {
   if (req.user) {
@@ -24,3 +27,5 @@ function isAuth(req, res, next) {
 }
 
 module.exports = isAuth
+
+*/

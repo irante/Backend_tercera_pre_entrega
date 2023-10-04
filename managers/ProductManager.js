@@ -51,8 +51,8 @@ async getAll(query,limite,sort) {
   async getById(id) {
 
     try {
-      const products = await productModel.find({ _id: id })
-      return products[0]  // regresa el primero de la lista
+      const products = await productModel.findById(id)
+      return products  // regresa el primero de la lista
 
 
     }

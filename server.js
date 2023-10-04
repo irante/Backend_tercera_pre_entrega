@@ -86,7 +86,9 @@ app.use(passport.initialize())
 app.use(passport.session())  //Si se están utilizando sesiones y se ha establecido una sesión de inicio de sesión, este middleware completará req.user con el usuario actual.
 
 
- 
+
+
+ //middlware GLOBAL
  app.use((req, res, next) => {
 
   //console.log(req.session, req.user)
